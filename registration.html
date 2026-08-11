@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <label for="nam">Name:</label>
+        <input type="text" name="usr_name" id="nam">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <label for="rollno">Rollno</label>
+        <input type="text" name="roll" id="rollno" pattern="[1-9]{2}[A-Za-z]{3}[0-9]{3}">
+        <label for="branch">Stream</label>
+        <select name="branch" id="branch">
+            <option value="cse">Cse</option>
+            <option value="dsai">Dsai</option>
+            <option value="ece">ECE</option>
+        </select>
+        <fieldset>
+            <legend>Year</legend>
+            <input type="radio" id="y2" name="year" value="2">
+<label for="y2">2nd year</label>
+
+<input type="radio" id="y3" name="year" value="3">
+<label for="y3">3rd year</label>
+        </fieldset>
+    </form>
+</body>
+</html>
